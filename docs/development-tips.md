@@ -17,3 +17,10 @@ The gulp file can be found at https://github.com/simplcommerce/SimplCommerce/blo
 By default the "copy-modules" gulp task only copy dll from Debug folders. So if you build Release or you publish the website then you have to modify the gulp task to copy dll from release folders
 
 ![copy-modules](images/copy-modules.png)
+
+## For Mac User 
+There is no Task Runner Explorer in VS Mac, here are some workaround
+- To install gulp command line tool
+    $ sudo npm install gulp -g
+- Go to the directory SimplCommerce/src/SimplCommerce.WebHost
+    $ gulp copy-modules
